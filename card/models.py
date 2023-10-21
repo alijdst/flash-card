@@ -7,4 +7,4 @@ class FlashCard(models.Model):
     # updated = models.DecimalField(auto_created=True)
     
     def __str__(self) -> str:
-        return f"self.question[0:10]..."
+        return f"{self.question[0:10]}..."
