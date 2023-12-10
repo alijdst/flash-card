@@ -5,8 +5,9 @@ from .models import FlashCard
 class CreateFlashCardSerializer(ModelSerializer):
     class Meta:
         model = FlashCard
-        fields = ('user','question', 'answer')
-        
+        fields = ('user', 'question', 'answer')
+
+
 class UpdateFlashCardSerializer(ModelSerializer):
     class Meta:
         model = FlashCard
